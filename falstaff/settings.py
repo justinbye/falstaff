@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'robo_adviser.apps.RoboAdviserConfig',
     'directory.apps.DirectoryConfig',
     'home.apps.HomeConfig',
+    'user.apps.UserConfig',
+    'passtime.apps.PasstimeConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
