@@ -6,4 +6,7 @@ class user(models.Model):
     email = models.EmailField
     phone = models.CharField(max_length=20)
 
+    def __str__(self):
+        return 'User: {}'.format(self.first_name)
+
 
