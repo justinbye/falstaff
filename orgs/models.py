@@ -1,6 +1,6 @@
 from django.db import models
 
-class user(models.Model):
+class orgs(models.Model):
     org_name = models.CharField(max_length=150)
     org_address_line_1 = models.CharField(max_length=100)
     org_address_line_2 = models.CharField(max_length=100)
