@@ -1,7 +1,4 @@
-from django.shortcuts import import get_object_or_404, render
-from django.http import HttpResponseRedirect
-from django.urls import reverse
-from django.views import generic
+from django.shortcuts import HttpResponse
 
 def index(request):
     return HttpResponse("Hello world - directory index!")
