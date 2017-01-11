@@ -64,7 +64,10 @@ ROOT_URLCONF = 'falstaff.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            '/home/templates',
+            '/home/templates/home',
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
